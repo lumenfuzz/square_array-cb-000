@@ -1,3 +1,6 @@
 def square_array(array)
-  array.each
+  counter = 0
+  array.each do |number|
+    array[counter] = number * number
+  end
 end
